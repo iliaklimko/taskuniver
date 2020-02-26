@@ -1,0 +1,338 @@
+.comments{
+    margin-top: 40px;
+}
+.comments .container-fluid{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.post-body:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.uploadbutton:hover .button {
+    text-decoration: underline;
+}
+
+.avatar-preview {
+    position: relative;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+}
+
+.user-img__change:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    border: 0;
+}
+
+label sup { color: #db1b3c; }
+
+.input-wrap--error textarea,
+.input-wrap--error .ms-choice,
+.input-wrap--error .ms-choice,
+.input-wrap--error .jq-selectbox__select {
+    border: 1px solid #de2e4c;
+}
+
+.forgot.fb-inline, #site-logout {
+    text-decoration: none;
+}
+.forgot.fb-inline:hover, #site-logout:hover {
+    text-decoration: underline;
+}
+
+
+.popup-register {
+    top: 28px;
+}
+
+.must-fill-fields {
+    text-align: left;
+}
+
+.pre-confirm-message {
+    text-align: justify;
+    color: #787d82;
+    font-size: 14px;
+}
+
+.must-fill-fields sup {
+    color: #db1b3c;
+}
+
+.pre-confirm-message sup {
+    color: #db1b3c;
+    top: 0;
+}
+
+.jq-selectbox__dropdown {
+    width: 100%!important;
+}
+.jq-selectbox ul li {
+    font-size: 16px;
+    white-space: normal;
+}
+
+.recovery .input-wrap__overflow {
+    position: relative;
+    display: block;
+}
+
+.excursions__filter-view .input-wrap label span {
+    line-height: 18px;
+}
+
+.excursions__item-txt > a:hover {
+    text-decoration: underline;
+}
+
+.language-version {
+    text-align: center;
+    line-height: inherit;
+    font-size: 18px;
+}
+
+.language-version a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #1858c3;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.language-version a:hover {
+    text-decoration: none;
+}
+
+.author {
+    font-size: 14px;
+}
+
+.popup__excursion-payment .btn {
+    margin-right: 20px !important;
+    float: left !important;
+    font-size: 18px !important;
+    padding: 9px 70px !important;
+}
+
+.cabinet {
+    margin-bottom: 50px;
+}
+
+.popup.popup--application .error-wrap {
+    width: 100%;
+}
+.currency-icon{
+    /*margin-top: -4px;*/
+    vertical-align: baseline;
+}
+
+.jq-selectbox ul{
+    max-height: 200px!important;
+}
+.jq-selectbox ul li {
+    line-height: 1.3;
+    padding: 3px 10px 3px;
+}
+.jq-selectbox ul li:before{
+    display: none!important;
+}
+
+.top-10 {
+    top: -10px!important;
+}
+
+#booking-form a:hover {
+    text-decoration: none;
+}
+
+.popup__excursion-payment .btn{
+    font-size: 22px!important;
+    padding: 12px 33px!important;
+}
+
+.padding-left-204 {
+    padding-left: 204px;
+}
+
+.excursions__in-price {
+    /*width: 210px;*/
+    white-space: nowrap;
+}
+
+.excursions__item-img__label {
+    width: 65%;
+}
+
+.excursions__item-img__date {
+    width: 35%;
+}
+
+.date-hint {
+    margin-top: -5px;
+}
+.index-search__form .page-header__autocomplete{
+    padding-right: 235px!important;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.index-search__form .page-header__autocomplete li:last-child {
+    -webkit-box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+}
+
+.paging--white {
+    background: #fff;
+}
+
+.paging--white .paging__item--active,
+.paging--white .paging__item:hover,
+.paging--white .paging__item--prev:hover,
+.paging--white .paging__item--next:hover {
+    background: #d8dbe6;
+}
+
+.excursions__filter .input-wrap__message > a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.excursions__filter .input-wrap__message > a:hover {
+    text-decoration: none;
+}
+
+#exursions-filter-reset {
+    margin-top: 10px;
+}
+
+.author__item .edit {
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+    color: #1858c3;
+}
+
+.author__item .edit img,
+.author__item .edit span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.author__item_edit{
+    margin-left: 30px;
+}
+
+.author__item .edit img{
+    margin-right: 8px;
+}
+
+.author__item .edit span:hover {
+    text-decoration: underline!important;
+}
+.cards {
+    padding-top: 5px;
+}
+.popup {
+    padding: 25px 60px;
+}
+.popup__excursion-sum {
+    margin-bottom: 15px;
+}
+.input-wrap {
+    margin-bottom: 15px;
+}
+.field-datepicker{
+    min-width: 800px;
+}
+
+.page-header__currency {
+    text-transform: none;
+}
+
+.workarea p {
+    margin-bottom: 20px;
+}
+
+.excursions__bottom h2 {
+    font-size: 48px;
+    line-height: 0.95;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.registration label, .create label {
+    width: 150px;
+    display: table-cell;
+    padding-right: 10px;
+}
+
+.offer_span {
+    text-decoration: none;
+}
+
+.excursions__filter {
+    width: 30%;
+}
+
+.excursions__filter .input-wrap label {
+    width: 40%;
+}
+
+.excursions__filter .select-wrap {
+    width: 60%;
+}
+.create .input-wrap .checkbox-wrap label {
+    width: 100%;
+}
+
+.excursions__item-img__label {
+    background-color: #D92040;
+}
+
+.workarea ul li.mewtwo-tabs-tabs_list__item:before {
+    left: 0px;
+}
+.date-wrap__link {
+    right: 10px;
+    top: 5px;
+}
+
+.btn.btn-default {
+    padding: 7px 15px;
+}
+
+.date-wrap__link_two {
+    display: inline-block;
+    vertical-align: middle;
+    width: 23px;
+    height: 23px;
+    background: url(../images/date.svg) no-repeat;
+    right: 10px;
+    top: 5px;
+}
+
+.input-wrap.field-excursion-visitors {
+    display: none;
+}
+
+.headDate {
+    font-size: 15px;
+}
+
+.index-search__top {
+    padding-bottom: 60px;
+}
+.page-footer{
+    padding-top: 1px;
+}
+
+#test {
+    margin-left: 50%;
+}

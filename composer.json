@@ -1,0 +1,44 @@
+{
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "dmstr/yii2-adminlte-asset": "2.3.4",
+        "insolita/yii2-adminlte-widgets": "~1.1",
+        "creocoder/yii2-translateable": "~1.0",
+        "creocoder/yii2-taggable": "~2.0",
+        "yii2tech/ar-linkmany": "^1.0.2",
+        "kartik-v/yii2-widget-select2": "^2.0.8",
+        "mongosoft/yii2-upload-behavior": "^0.1.6",
+        "loveorigami/yii2-ckeditor": "*",
+        "sadovojav/yii2-ckeditor": "@dev",
+        "mihaildev/yii2-elfinder": "*",
+        "kartik-v/yii2-widget-fileinput": "^1.0.5",
+        "zelenin/yii2-slug-behavior": "^1.5.1",
+        "kartik-v/yii2-widget-datepicker": "^1.4.2",
+        "kartik-v/yii2-dialog": "^1.0.0",
+        "kartik-v/yii2-date-range": "*",
+        "bower-asset/nprogress": "^0.2.0",
+        "yii2mod/yii2-sweet-alert": "*",
+        "yii2tech/ar-position": "^1.0.0",
+        "himiklab/yii2-sitemap-module" : "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": "php init --env=Development --overwrite=n"
+    }
+}

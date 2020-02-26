@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 26 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        opacity: 0.1;
+      }
+    </style>
+  </defs>
+  <path id="Rectangle_31_copy" data-name="Rectangle 31 copy" class="cls-1" d="M2,2H21V15H2V2ZM4,4H19v9H4V4Z"/>
+  <rect class="cls-2" x="4" y="4" width="15" height="9"/>
+  <path class="cls-3" d="M22,8h1v9H22V8ZM7,16H23v1H7V16Z"/>
+  <path id="Rectangle_31_copy_9" data-name="Rectangle 31 copy 9" class="cls-1" d="M23,18H7V17H23V8h1v9l-0.019,1H23Z"/>
+</svg>
